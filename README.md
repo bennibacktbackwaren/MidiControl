@@ -13,8 +13,7 @@ sounds to configurable actions. It is written in C99 using Visual Studio and the
 ## Configuration
 
 The configuration of MidiControl is done via a simple INI configuration file. A sample config.ini is
-already included. A configuration editor with a graphical user interface is in work. It is not really fun
-to write the file by hand.
+already included.
 
 #### Adding actions
 Currently there are only three predefined actions:

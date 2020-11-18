@@ -203,6 +203,11 @@ void CALLBACK MidiInProc(HMIDIIN hMidiIn, UINT wMsg, DWORD_PTR dwInstance, DWORD
 	case 2:
 		send_input(VK_MEDIA_PLAY_PAUSE);
 		break;
+
+		// F16
+	case 3:
+		send_input(VK_F16);
+		break;
 	}
 }
 
